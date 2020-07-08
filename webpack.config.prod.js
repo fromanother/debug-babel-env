@@ -29,7 +29,7 @@ export default {
   },
   plugins: [
     new webpack.DefinePlugin({
-      "AUTH0_CLIENT_ID": "\"" + process.env.AUTH0_CLIENT_ID + "\"" // TODO can be removed
+      
     }),
     // Tells React to build in prod mode. https://facebook.github.io/react/downloads.html
     new webpack.DefinePlugin(GLOBALS),
